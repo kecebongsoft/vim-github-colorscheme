@@ -34,11 +34,12 @@ hi LineNr   ctermfg=246 ctermbg=15 guifg=#959595 guibg=#ECECEC gui=bold cterm=bo
 hi SpecialKey ctermfg=6 guifg=#177F80 gui=italic cterm=italic
 hi WarningMsg ctermfg=167 guifg=#ef5939
 hi ErrorMsg ctermbg=15 ctermfg=196 guibg=#f8f8ff guifg=#ff1100 gui=undercurl cterm=undercurl
+hi ColorColumn guibg=#f0f0f0
 " }}}
 
 " {{{ Vim => 7.0 specific colors
 if version >= 700
-    hi CursorLine ctermbg=253 guibg=#D8D8DD
+    hi CursorLine ctermbg=254 guibg=#f3f3f3
     hi MatchParen ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd
     hi Pmenu        ctermfg=15 ctermbg=8 guifg=#ffffff guibg=#808080 gui=bold   cterm=bold
     hi PmenuSel     ctermfg=0 ctermbg=252 guifg=#000000 guibg=#cdcdfd  gui=italic cterm=italic
